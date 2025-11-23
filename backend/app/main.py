@@ -6,7 +6,7 @@ from contextlib import asynccontextmanager
 from .config import settings
 from .db import init_db
 from .routers import auth, users, itineraries, items, budgets, search, exchange
-from .routers import tour, currency, kakao, delivery
+from .routers import tour, currency, kakao, delivery, places
 
 
 @asynccontextmanager
@@ -48,6 +48,7 @@ app.include_router(tour.router, tags=["tour"])
 app.include_router(currency.router, tags=["currency"])
 app.include_router(kakao.router, tags=["kakao"])
 app.include_router(delivery.router, tags=["delivery"])
+app.include_router(places.router, tags=["places"])
 
 
 @app.get("/")
