@@ -6,6 +6,7 @@ from contextlib import asynccontextmanager
 from .config import settings
 from .db import init_db
 from .routers import auth, users, itineraries, items, budgets, search, exchange
+from .routers import tour, currency, kakao
 
 
 @asynccontextmanager
@@ -33,7 +34,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Routers
+# Routers - Original
 app.include_router(auth.router, prefix=settings.API_V1_STR)
 app.include_router(users.router, prefix=settings.API_V1_STR)
 app.include_router(itineraries.router, prefix=settings.API_V1_STR)
@@ -42,10 +43,15 @@ app.include_router(budgets.router, prefix=settings.API_V1_STR)
 app.include_router(search.router, prefix=settings.API_V1_STR)
 app.include_router(exchange.router, prefix=settings.API_V1_STR)
 
+# Routers - New integrations
+app.include_router(tour.router, tags=["tour"])
+app.include_router(currency.router, tags=["currency"])
+app.include_router(kakao.router, tags=["kakao"])
+
 
 @app.get("/")
 async def root():
-    return {"message": "Travel Planner API", "docs": "/docs"}
+    return {"message": "Travel Korea API", "docs": "/docs", "version": "2.0"}
 
 
 @app.get("/health")
