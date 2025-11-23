@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "home": "Home",
+    "explore": "Explore",
+    "itinerary": "Itinerary",
+    "budget": "Budget",
+    "signin": "Sign In",
+    "signup": "Sign Up",
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "welcome": "Welcome to Travel Korea",
+  "description": "Plan your perfect trip to South Korea",
+  "search_placeholder": "Search destinations, hotels, restaurants...",
+  "add_to_itinerary": "Add to Itinerary",
+  "view_details": "View Details",
+  "loading": "Loading...",
+  "error": "An error occurred",
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "edit": "Edit",
+  "create": "Create",
+  "update": "Update",
+  "currency": {
+    "title": "Currency Converter",
+    "from": "From",
+    "to": "To",
+    "amount": "Amount",
+    "convert": "Convert",
+    "result": "Result"
+  },
+  "budget": {
+    "total": "Total Budget",
+    "spent": "Spent",
+    "remaining": "Remaining",
+    "category": "Category",
+    "categories": {
+      "accommodation": "Accommodation",
+      "food": "Food & Dining",
+      "transportation": "Transportation",
+      "attractions": "Attractions",
+      "shopping": "Shopping",
+      "other": "Other"
+    }
+  },
+  "itinerary": {
+    "title": "My Itinerary",
+    "create_new": "Create New Itinerary",
+    "start_date": "Start Date",
+    "end_date": "End Date",
+    "add_place": "Add Place",
+    "map": "Map",
+    "places": "Places"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "explore": "Explorar",
+    "itinerary": "Itinerario",
+    "budget": "Presupuesto",
+    "signin": "Iniciar sesión",
+    "signup": "Registrarse",
+    "profile": "Perfil",
+    "logout": "Cerrar sesión"
+  },
+  "welcome": "Bienvenido a Travel Korea",
+  "description": "Planifica tu viaje perfecto a Corea del Sur",
+  "search_placeholder": "Buscar destinos, hoteles, restaurantes...",
+  "add_to_itinerary": "Añadir al itinerario",
+  "view_details": "Ver detalles",
+  "loading": "Cargando...",
+  "error": "Ocurrió un error",
+  "save": "Guardar",
+  "cancel": "Cancelar",
+  "delete": "Eliminar",
+  "edit": "Editar",
+  "create": "Crear",
+  "update": "Actualizar",
+  "currency": {
+    "title": "Convertidor de moneda",
+    "from": "De",
+    "to": "A",
+    "amount": "Cantidad",
+    "convert": "Convertir",
+    "result": "Resultado"
+  },
+  "budget": {
+    "total": "Presupuesto total",
+    "spent": "Gastado",
+    "remaining": "Restante",
+    "category": "Categoría",
+    "categories": {
+      "accommodation": "Alojamiento",
+      "food": "Comida",
+      "transportation": "Transporte",
+      "attractions": "Atracciones",
+      "shopping": "Compras",
+      "other": "Otro"
+    }
+  },
+  "itinerary": {
+    "title": "Mi itinerario",
+    "create_new": "Crear nuevo itinerario",
+    "start_date": "Fecha de inicio",
+    "end_date": "Fecha de fin",
+    "add_place": "Añadir lugar",
+    "map": "Mapa",
+    "places": "Lista de lugares"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "home": "홈",
+    "explore": "탐색",
+    "itinerary": "일정",
+    "budget": "예산",
+    "signin": "로그인",
+    "signup": "회원가입",
+    "profile": "프로필",
+    "logout": "로그아웃"
+  },
+  "welcome": "Travel Korea에 오신 것을 환영합니다",
+  "description": "완벽한 한국 여행을 계획하세요",
+  "search_placeholder": "목적지, 호텔, 레스토랑 검색...",
+  "add_to_itinerary": "일정에 추가",
+  "view_details": "자세히 보기",
+  "loading": "로딩 중...",
+  "error": "오류가 발생했습니다",
+  "save": "저장",
+  "cancel": "취소",
+  "delete": "삭제",
+  "edit": "수정",
+  "create": "만들기",
+  "update": "업데이트",
+  "currency": {
+    "title": "환율 변환기",
+    "from": "원화",
+    "to": "목표 통화",
+    "amount": "금액",
+    "convert": "변환하기",
+    "result": "결과"
+  },
+  "budget": {
+    "total": "총 예산",
+    "spent": "사용 금액",
+    "remaining": "남은 금액",
+    "category": "카테고리",
+    "categories": {
+      "accommodation": "숙박",
+      "food": "식사",
+      "transportation": "교통",
+      "attractions": "관광",
+      "shopping": "쇼핑",
+      "other": "기타"
+    }
+  },
+  "itinerary": {
+    "title": "내 일정",
+    "create_new": "새 일정 만들기",
+    "start_date": "시작일",
+    "end_date": "종료일",
+    "add_place": "장소 추가",
+    "map": "지도",
+    "places": "장소 목록"
+  }
+}
