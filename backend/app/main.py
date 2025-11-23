@@ -6,7 +6,7 @@ from contextlib import asynccontextmanager
 from .config import settings
 from .db import init_db
 from .routers import auth, users, itineraries, items, budgets, search, exchange
-from .routers import tour, currency, kakao, delivery, places
+from .routers import tour, currency, kakao, delivery, places, itinerary_full
 
 
 @asynccontextmanager
@@ -49,11 +49,12 @@ app.include_router(currency.router, tags=["currency"])
 app.include_router(kakao.router, tags=["kakao"])
 app.include_router(delivery.router, tags=["delivery"])
 app.include_router(places.router, tags=["places"])
+app.include_router(itinerary_full.router, tags=["itinerary_management"])
 
 
 @app.get("/")
 async def root():
-    return {"message": "UltimateKorea API", "docs": "/docs", "version": "2.0"}
+    return {"message": "UltimateKorea API", "docs": "/docs", "version": "2.1"}
 
 
 @app.get("/health")
