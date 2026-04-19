@@ -1,0 +1,21 @@
+{
+  "rewrites": [
+    { "source": "/api/auth/:path*", "destination": "/api/auth.js" },
+    { "source": "/api/admin/:path*", "destination": "/api/admin.js" },
+    { "source": "/api/schedules/:path*", "destination": "/api/schedules.js" },
+    { "source": "/api/applications/:path*", "destination": "/api/applications.js" },
+    { "source": "/api/mypage/:path*", "destination": "/api/mypage.js" },
+    { "source": "/api/notices/:path*", "destination": "/api/notices.js" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        // VULNERABLE: WEB-16 헤더 정보 노출 - 불필요한 서버 정보 노출
+        // 실제 환경에서는 X-Powered-By, Server 등의 헤더를 제거하거나 일반적인 값으로 설정해야 합니다.
+        { "key": "X-Powered-By", "value": "Next.js/Vercel" },
+        { "key": "Server", "value": "Vercel" }
+      ]
+    }
+  ]
+}

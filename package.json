@@ -1,0 +1,20 @@
+{
+  "name": "render-web-vulnerable-supabase",
+  "version": "1.0.0",
+  "description": "Vulnerable version of render-web migrated to Vercel and Supabase",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [],
+  "author": "Manus AI",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.42.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.4.5"
+  }
+}
